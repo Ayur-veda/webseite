@@ -13,7 +13,7 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'de'
 DEFAULT_CATEGORY = 'Verschiedenes'
 STATIC_PATHS = ['Bilder']
-PAGE_PATHS= ['Seiten']
+PAGE_PATHS = ['Seiten']
 TYPOGRIFY = True
 PLUGIN_PATHS = ['/Users/axel/src/Pelican/pelican-plugins/assets']
 
@@ -26,19 +26,17 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Python.org', 'http://python.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (('You can add links in your config file', '#'),
+#           ('Another social link', '#'))
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
-# THEME = "/Users/axel/src/Pelican/pelican-themes/brownstone"
-# THEME = '/Users/axel/src/Pelican/pelican-themes/Nuja'
-THEME = '/Users/axel/src/Pelican/pelican-themes/plumage'
-
+# THEME = "./brownstone"
+# THEME = './Nuja'
+THEME = './plumage'
