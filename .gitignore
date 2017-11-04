@@ -2,3 +2,5 @@
 *.pid
 *.swp
 output/*
+.ropeproject/*
+.ropeproject*
