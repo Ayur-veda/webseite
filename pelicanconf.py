@@ -42,5 +42,5 @@ DEFAULT_PAGINATION = 10
 # THEME = './Nuja'
 THEME = './plumage'
 CATEGORY_SAVE_AS = 'category/{slug}.html'
-CATEGORIES_SAVE_AS = 'category/{slug}.html'
+CATEGORIES_SAVE_AS = 'category/Kategorien.html'
 ARCHIVES_SAVE_AS = 'archives.html'
